@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "LDAP 账号查看器",
+    "description": "只读查询 Active Directory 账号：支持账号、邮箱、手机号检索，并分列显示启用、锁定、账号有效期和密码过期状态。"
+  }
+}

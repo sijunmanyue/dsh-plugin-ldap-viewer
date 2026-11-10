@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="LDAP Account Viewer">
+  <defs>
+    <linearGradient id="ldapv-bg" x1="9" y1="7" x2="55" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#123d4a"/>
+      <stop offset="1" stop-color="#0a2630"/>
+    </linearGradient>
+    <linearGradient id="ldapv-glass" x1="37" y1="12" x2="51" y2="36" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7ff0df"/>
+      <stop offset="1" stop-color="#2ec4b6"/>
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="58" height="58" rx="15" fill="url(#ldapv-bg)"/>
+  <circle cx="18" cy="22" r="4.2" fill="#2ec4b6" opacity=".95"/>
+  <circle cx="18" cy="42" r="4.2" fill="#7ff0df" opacity=".9"/>
+  <circle cx="31" cy="32" r="4.2" fill="#e8fbf7" opacity=".9"/>
+  <path d="M21.8 23.5 27.4 29.7M21.8 40.5l5.6-5.7M35 32h4.5" fill="none" stroke="#8bd8cf" stroke-width="2.1" stroke-linecap="round" opacity=".8"/>
+  <circle cx="43.5" cy="25.5" r="10.2" fill="none" stroke="url(#ldapv-glass)" stroke-width="4.4"/>
+  <path d="m50.6 33.1 6.5 6.6" fill="none" stroke="#7ff0df" stroke-width="4.8" stroke-linecap="round"/>
+  <path d="M39.3 25.7h8.4M43.5 21.5v8.4" fill="none" stroke="#e8fbf7" stroke-width="2.3" stroke-linecap="round" opacity=".95"/>
+</svg>

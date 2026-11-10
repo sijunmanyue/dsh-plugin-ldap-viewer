@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "LDAP Account Viewer",
+    "description": "Read-only Active Directory account lookup by account, email, or mobile, with separate enabled, lock, account-expiry, and password-expiry states."
+  }
+}

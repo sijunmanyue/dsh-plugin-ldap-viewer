@@ -1,0 +1,49 @@
+{
+  "name": "@local/ldap-viewer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Read-only LDAP / Active Directory account viewer for the DSH Web UI.",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "ldap.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  },
+  "keywords": [
+    "dsh-plugin",
+    "ldap",
+    "active-directory",
+    "account-viewer"
+  ],
+  "author": "JUN MA",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sijunmanyue/dsh-plugin-ldap-viewer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sijunmanyue/dsh-plugin-ldap-viewer/issues"
+  },
+  "homepage": "https://github.com/sijunmanyue/dsh-plugin-ldap-viewer#readme"
+}

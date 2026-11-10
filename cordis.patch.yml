@@ -1,0 +1,3 @@
+- insert:
+    - id: ldap-viewer
+      name: '@local/ldap-viewer'
